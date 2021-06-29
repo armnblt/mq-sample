@@ -16,6 +16,6 @@ maven_s2i_build
 
 # install jar
 echo "install dependency jars...."
-curl -o /tmp/javax.jms-api-2.0.1.jar https://repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar
-curl -o /tmp/com.ibm.mq.allclient-9.2.2.0.jar https://repo1.maven.org/maven2/com/ibm/mq/com.ibm.mq.allclient/9.2.2.0/com.ibm.mq.allclient-9.2.2.0.jar
+curl -o /deployments/javax.jms-api-2.0.1.jar https://repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar
+curl -o /deployments/com.ibm.mq.allclient-9.2.2.0.jar https://repo1.maven.org/maven2/com/ibm/mq/com.ibm.mq.allclient/9.2.2.0/com.ibm.mq.allclient-9.2.2.0.jar
 echo "install done!!"
